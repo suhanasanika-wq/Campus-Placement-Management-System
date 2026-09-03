@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.welcome {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.student-btn {
+    background-color: #2563eb;
+}
+
+.company-btn {
+    background-color: #16a34a;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+}
+
+label {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+form .btn {
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}

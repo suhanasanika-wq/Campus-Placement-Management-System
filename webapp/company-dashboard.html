@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        .navbar {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h2 {
+            margin: 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .welcome {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 18px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .card a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h2>Campus Placement Portal</h2>
+        <a href="company-login.html">Logout</a>
+    </div>
+
+    <div class="container">
+
+        <div class="welcome">
+            <h2>Welcome, Company!</h2>
+            <p>You are successfully logged in to the Company Dashboard.</p>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>View Applicants</h3>
+                <p>See students who have applied to your company.</p>
+
+                <a href="view-applicants">
+                    View Applicants
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>Update Status</h3>
+                <p>Accept or reject student applications.</p>
+
+                <a href="view-applicants">
+                    Manage Applications
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
